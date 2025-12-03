@@ -37,7 +37,7 @@ const threads = [
     time: "Yesterday",
     tags: ["React", "Frontend", "Feedback"],
     title: "Seeking Feedback: My First React Component (Video Walkthrough)",
-    content: "I've been learning React through SignCode Academy and built a small counter component. I've recorded a video of myself explaining the code in ASL and showing how it works. Any feedback on best practices...",
+    content: "I've been learning React through Beyond Sound Academy and built a small counter component. I've recorded a video of myself explaining the code in ASL and showing how it works. Any feedback on best practices...",
     likes: 28,
     comments: 12,
   },

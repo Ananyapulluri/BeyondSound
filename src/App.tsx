@@ -9,6 +9,7 @@ import CourseSyllabus from "./pages/CourseSyllabus";
 import CourseLesson from "./pages/CourseLesson";
 import Exercise from "./pages/Exercise";
 import Community from "./pages/Community";
+import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/courses/:slug/:lessonId" element={<CourseLesson />} />
           <Route path="/exercise" element={<Exercise />} />
           <Route path="/community" element={<Community />} />
+          <Route path="/auth" element={<Auth />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

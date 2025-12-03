@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { CheckCircle2, Play, Save } from "lucide-react";
 
 const Exercise = () => {
-  const [code, setCode] = useState(`# This is your first SignCode Academy exercise!
+  const [code, setCode] = useState(`# This is your first Beyond Sound Academy exercise!
 # Create variables for different data types.
 
 # 1. Create a string variable called 'my_name' with your name
