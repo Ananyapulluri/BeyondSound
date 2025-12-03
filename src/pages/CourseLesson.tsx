@@ -106,7 +106,7 @@ const CourseLesson = () => {
               </h3>
               <div className="space-y-4 text-sm text-muted-foreground leading-relaxed max-h-96 overflow-y-auto">
                 <p>
-                  <span className="text-primary font-medium">Welcome</span> back to SignCode Academy. Today we're learning about variables and data types in Python.
+                  <span className="text-primary font-medium">Welcome</span> back to Beyond Sound Academy. Today we're learning about variables and data types in Python.
                 </p>
                 <p>
                   A variable is like a container that stores data. Think of it like a labeled box where you can put things inside.

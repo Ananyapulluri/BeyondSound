@@ -56,7 +56,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-border">
           <p className="text-sm text-muted-foreground text-center">
-            © 2025 SignCode Academy. All rights reserved.
+            © 2025 Beyond Sound Academy. All rights reserved.
           </p>
         </div>
       </div>
