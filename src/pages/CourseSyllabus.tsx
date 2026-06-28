@@ -1,4 +1,5 @@
 import { Link, useParams } from "react-router-dom";
+import { useEffect } from "react";
 import Layout from "@/components/layout/Layout";
 import { CheckCircle2, Circle, Play, Clock, BookOpen } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -67,6 +68,11 @@ const courseData: Record<string, {
 
 const CourseSyllabus = () => {
   const { slug } = useParams();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [slug]);
+
   const course = courseData[slug || "python-intro"] || courseData["python-intro"];
   const completedCount = course.lessons.filter(l => l.completed).length;
   const progressPercent = (completedCount / course.lessons.length) * 100;
