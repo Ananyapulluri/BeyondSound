@@ -1,4 +1,4 @@
-# BeyondSound 🤟
+# BeyondSound 
 
 A web-based coding education platform designed for the deaf and 
 hearing-impaired community — delivering programming tutorials 
